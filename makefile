@@ -1,6 +1,6 @@
 # Compiler and flags
 CC = g++
-CFLAGS = -Wall -O0 -g
+CFLAGS = -Wall -O3 -g -ffast-math
 
 # Source files
 SRCS = neon_test.cpp timeit.cpp
